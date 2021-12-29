@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<test name="RegressionTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="urlDetail" value="Google" />
+		<classes>
+			<class name="homeTest.RegressionPack" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

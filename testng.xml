@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test thread-count="1" name="Test">
+  <parameter name="browser" value="chrome" />
+  <parameter name="urlDetail" value="Google" />
+    <classes>
+      <class name="homeTest.GoogleHomePageTC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="65198" started-at="2021-12-27T09:58:35Z" finished-at="2021-12-27T09:59:40Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="65198" started-at="2021-12-27T09:58:35Z" finished-at="2021-12-27T09:59:40Z">
+      <class name="homeTest.GoogleHomePageTC">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:homeTest.GoogleHomePageTC@26a7b76d]" name="beforeSuite" is-config="true" duration-ms="278" started-at="2021-12-27T09:58:35Z" finished-at="2021-12-27T09:58:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:homeTest.GoogleHomePageTC@26a7b76d]" name="setUp" is-config="true" duration-ms="11112" started-at="2021-12-27T09:58:35Z" finished-at="2021-12-27T09:58:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@10643593]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:homeTest.GoogleHomePageTC@26a7b76d]" name="initialize" is-config="true" duration-ms="1464" started-at="2021-12-27T09:58:46Z" finished-at="2021-12-27T09:58:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="search()[pri:0, instance:homeTest.GoogleHomePageTC@26a7b76d]" name="search" duration-ms="50921" started-at="2021-12-27T09:58:47Z" finished-at="2021-12-27T09:59:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:homeTest.GoogleHomePageTC@26a7b76d]" name="afterMethod" is-config="true" duration-ms="1672" started-at="2021-12-27T09:59:38Z" finished-at="2021-12-27T09:59:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:homeTest.GoogleHomePageTC@26a7b76d]" name="tearDown" is-config="true" duration-ms="272" started-at="2021-12-27T09:59:40Z" finished-at="2021-12-27T09:59:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- homeTest.GoogleHomePageTC -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
