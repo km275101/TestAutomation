@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="65198" started-at="2021-12-27T09:58:35Z" finished-at="2021-12-27T09:59:40Z">
+  <suite name="Suite" duration-ms="97084" started-at="2022-01-06T05:48:35Z" finished-at="2022-01-06T05:50:12Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="65198" started-at="2021-12-27T09:58:35Z" finished-at="2021-12-27T09:59:40Z">
-      <class name="homeTest.GoogleHomePageTC">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:homeTest.GoogleHomePageTC@26a7b76d]" name="beforeSuite" is-config="true" duration-ms="278" started-at="2021-12-27T09:58:35Z" finished-at="2021-12-27T09:58:35Z">
+    <test name="Test" duration-ms="97084" started-at="2022-01-06T05:48:35Z" finished-at="2022-01-06T05:50:12Z">
+      <class name="homeTest.BingSearchTC">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:homeTest.BingSearchTC@23d2a7e8]" name="beforeSuite" is-config="true" duration-ms="177" started-at="2022-01-06T05:48:34Z" finished-at="2022-01-06T05:48:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:homeTest.GoogleHomePageTC@26a7b76d]" name="setUp" is-config="true" duration-ms="11112" started-at="2021-12-27T09:58:35Z" finished-at="2021-12-27T09:58:46Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:homeTest.BingSearchTC@23d2a7e8]" name="setUp" is-config="true" duration-ms="8296" started-at="2022-01-06T05:48:35Z" finished-at="2022-01-06T05:48:43Z">
           <params>
             <param index="0">
               <value>
@@ -20,35 +20,43 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Google]]>
+                <![CDATA[bing]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@10643593]]>
+                <![CDATA[org.testng.TestRunner@3d4e405e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:homeTest.GoogleHomePageTC@26a7b76d]" name="initialize" is-config="true" duration-ms="1464" started-at="2021-12-27T09:58:46Z" finished-at="2021-12-27T09:58:47Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:homeTest.BingSearchTC@23d2a7e8]" name="initialize" is-config="true" duration-ms="960" started-at="2022-01-06T05:48:43Z" finished-at="2022-01-06T05:48:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="search()[pri:0, instance:homeTest.GoogleHomePageTC@26a7b76d]" name="search" duration-ms="50921" started-at="2021-12-27T09:58:47Z" finished-at="2021-12-27T09:59:38Z">
+        <test-method status="PASS" signature="bingSearcAllh()[pri:0, instance:homeTest.BingSearchTC@23d2a7e8]" name="bingSearcAllh" duration-ms="74174" started-at="2022-01-06T05:48:44Z" finished-at="2022-01-06T05:49:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:homeTest.GoogleHomePageTC@26a7b76d]" name="afterMethod" is-config="true" duration-ms="1672" started-at="2021-12-27T09:59:38Z" finished-at="2021-12-27T09:59:40Z">
+        </test-method> <!-- bingSearcAllh -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:homeTest.BingSearchTC@23d2a7e8]" name="initialize" is-config="true" duration-ms="74" started-at="2022-01-06T05:49:58Z" finished-at="2022-01-06T05:49:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="bingSearch()[pri:0, instance:homeTest.BingSearchTC@23d2a7e8]" name="bingSearch" duration-ms="12247" started-at="2022-01-06T05:49:58Z" finished-at="2022-01-06T05:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bingSearch -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:homeTest.BingSearchTC@23d2a7e8]" name="afterMethod" is-config="true" duration-ms="1314" started-at="2022-01-06T05:50:10Z" finished-at="2022-01-06T05:50:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:homeTest.GoogleHomePageTC@26a7b76d]" name="tearDown" is-config="true" duration-ms="272" started-at="2021-12-27T09:59:40Z" finished-at="2021-12-27T09:59:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:homeTest.BingSearchTC@23d2a7e8]" name="tearDown" is-config="true" duration-ms="208" started-at="2022-01-06T05:50:12Z" finished-at="2022-01-06T05:50:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- homeTest.GoogleHomePageTC -->
+      </class> <!-- homeTest.BingSearchTC -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

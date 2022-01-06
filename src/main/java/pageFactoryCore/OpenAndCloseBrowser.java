@@ -38,7 +38,7 @@ public class OpenAndCloseBrowser {
 	public static String testName1;
 	public static String baseUrl;
 
-	@BeforeTest
+	@BeforeTest(alwaysRun=true)
 	@Parameters({ "browser", "urlDetail" })
 	public void setUp(String browserName, String urlTag, ITestContext ctx) throws InterruptedException, IOException, CsvException {
 		String testName = ctx.getName();
@@ -55,7 +55,7 @@ public class OpenAndCloseBrowser {
 		test.log(Status.PASS, "Browser Opened");	
 	}
 
-	@AfterTest
+	@AfterTest(alwaysRun=true)
 	public void afterMethod() {
 		test.log(Status.PASS, "Browser Closed");
 		browserConfig.quitDriver();
@@ -84,7 +84,7 @@ public class OpenAndCloseBrowser {
 		System.out.println("Please access the location for report : "+testName1);
 	}
 	
-	@BeforeSuite
+	@BeforeSuite(alwaysRun=true)
 	public void beforeSuite() {
 		extent = Report.getInstance("ReportView");
 	}

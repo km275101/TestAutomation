@@ -2,11 +2,11 @@
 <suite name="Suite">
   <test thread-count="1" name="Test">
   <parameter name="browser" value="chrome" />
-  <parameter name="urlDetail" value="Google" />
+  <parameter name="urlDetail" value="bing" />
     <classes>
-      <class name="homeTest.GoogleHomePageTC"/>
+      <class name="homeTest.BingSearchTC"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+ </test>
+</suite>
 
 

@@ -13,4 +13,10 @@ public class GoogleHomePageTC extends Initialize {
 		googleHomePage.assertvalue();
 	}
 	
+	@Test
+	public void searchAll() throws IOException {
+		googleHomePage.search();
+		googleHomePage.assertvalue();
+	}
+	
 }

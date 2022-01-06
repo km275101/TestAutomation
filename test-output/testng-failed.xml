@@ -3,16 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="homeTest.GoogleHomePageTC">
+      <class name="homeTest.YahooSearchTC">
         <methods>
           <include name="setUp"/>
           <include name="afterMethod"/>
+          <include name="yahooSearchAll"/>
           <include name="beforeSuite"/>
           <include name="tearDown"/>
           <include name="initialize"/>
-          <include name="search"/>
         </methods>
-      </class> <!-- homeTest.GoogleHomePageTC -->
+      </class> <!-- homeTest.YahooSearchTC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

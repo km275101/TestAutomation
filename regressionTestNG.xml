@@ -2,7 +2,12 @@
 <suite name="Suite">
 	<test name="RegressionTest">
 		<parameter name="browser" value="chrome" />
-		<parameter name="urlDetail" value="Google" />
+		<parameter name="urlDetail" value="google" />
+		<groups>	
+				<run>	
+   					 <include name="google" />	
+        		</run>	
+       		</groups>	
 		<classes>
 			<class name="homeTest.RegressionPack" />
 		</classes>

@@ -36,6 +36,7 @@ public class CommonUtiltyDataProvider {
 	
 	FileInputStream fis;
 	static int generatedNumberRandom;
+	
 
 	public List<String> getUserDetails() {
 		List<String> userDetails = new ArrayList<String>();

@@ -11,6 +11,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import pageFunctionsPageFactory.CommonFunctionPF;
+
 public class ActionDriver extends OpenAndCloseBrowser {
 
 	protected WebDriver driver;
@@ -50,6 +52,16 @@ public class ActionDriver extends OpenAndCloseBrowser {
 		JavascriptExecutor jse = (JavascriptExecutor) driver;
 		try {
 			jse.executeScript("arguments[0].setAttribute('style', 'background:yellow; border:2px solid red;');", e);
+		} catch (Exception e1) {
+			e1.printStackTrace();
+		}
+	}
+	
+	public void scrollToElement(WebElement e) {
+		JavascriptExecutor jse = (JavascriptExecutor) driver;
+		try {
+			jse.executeScript("arguments[0].scrollIntoView(true);", e);
+			staticWait(2);
 		} catch (Exception e1) {
 			e1.printStackTrace();
 		}
