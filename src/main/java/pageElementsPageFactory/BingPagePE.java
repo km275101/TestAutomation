@@ -1,6 +1,8 @@
 package pageElementsPageFactory;
 
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -20,5 +22,8 @@ public class BingPagePE extends ActionDriver{
 	
 	@FindBy(xpath="(//li[@class='b_algo']//h2/a[1])[1]")
 	public WebElement firstresultBingSearch ;
+	
+	@FindBy(xpath="//a[contains(@href, 'http')]")
+	public List<WebElement> links ;
 	
 }

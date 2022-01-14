@@ -3,8 +3,10 @@ package pageFunctionsPageFactory;
 import static org.testng.Assert.assertTrue;
 
 import java.io.IOException;
+import java.util.List;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -64,6 +66,40 @@ public class BingHomePagePF extends BingPagePE {
 	public void searchAll() {
 		
 		cfp.searchAll(bingSearchBox, firstresultBingSearch, "SearchItems");
+		
+	}
+	
+	
+	public void bingSearchForClover() throws IOException {
+		try {
+			String baseUrl = cud.getUrlDetails("Bing");
+			driver.get(baseUrl);
+			System.out.println("Enter the text into bing search box");
+			highlightElement(bingSearchBox);
+			bingSearchBox.sendKeys("Clover");
+			test.pass("Item Entered for search",
+					MediaEntityBuilder.createScreenCaptureFromPath(reportLog("bingSearchBox")).build());
+			staticWait(3);
+			bingSearchBox.sendKeys(Keys.ENTER);
+			staticWait(3);
+			test.pass("Item Searched result for bing",
+					MediaEntityBuilder.createScreenCaptureFromPath(reportLog("bingSearchBoxResult")).build());
+			readAllLinks();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void readAllLinks() {
+		
+		int n = links.size();
+		for(int i =0; i< n; i++) {
+			
+			System.out.println(links.get(i).getAttribute("href"));
+			
+			
+		}
+		
 		
 	}
 }
